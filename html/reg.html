@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <link rel="stylesheet" href="../css/default.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav {
+            width: 100%;
+            height: 75px;
+            border-bottom: 1px solid #ccc;
+            background: url(../img/logonew.png)no-repeat 205px 7px;
+            background-size: 170px 70px;
+        }
+
+        .nav-ul {
+            width: 500px;
+            height: 85px;
+            margin-left: 420px;
+        }
+
+        .nav-ul li {
+            list-style: none;
+            float: left;
+            text-align: center;
+            line-height: 85px;
+            font-size: 18px;
+            padding-left: 44px;
+        }
+
+        .nav-ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .nav-ul li a:hover {
+            color: orange;
+        }
+
+        .ser {
+            position: relative;
+            top: -57px;
+            left: 1045px;
+            width: 25px;
+            height: 25px;
+        }
+        .ser:hover{
+            transform: scale(1.1);
+        }
+
+        .registered {
+            width: 50px;
+            height: 35px;
+            line-height: 20px;
+            font-size: 17px;
+            color: rgb(254, 83, 65);
+            background-color: white;
+            border: 1px solid rgb(254, 83, 65);
+            border-radius: 3px;
+            position: absolute;
+            top: 23px;
+            left: 1100px;
+        }
+
+        .registered:hover {
+            cursor: pointer;
+            color: white;
+            background-color: rgb(254, 83, 65);
+        }
+
+        .bottom {
+            width: 100%;
+            height: 400px;
+            background: url(../img/code.png) no-repeat 210px 50px;
+            background-size: 150px 150px;
+            background-color: rgb(80, 80, 80);
+            position: absolute;
+        }
+
+        .logo1 {
+            position: relative;
+            top: 55px;
+            left: 420px;
+        }
+
+        .bot1 {
+            width: 150px;
+            height: 100px;
+            color: #ccc;
+            position: relative;
+            top: 64px;
+            left: 425px;
+            font-size: 13px;
+        }
+
+        .bot2 {
+            width: 700px;
+            height: 200px;
+
+            position: relative;
+            top: -100px;
+            left: 630px;
+        }
+
+        .u1 {
+            float: left;
+
+        }
+
+        .u1 li {
+            list-style: none;
+            color: #ccc;
+            font-size: 13px;
+            padding-bottom: 5px;
+        }
+
+        #t1 {
+            font-size: 18px;
+            padding-bottom: 20px;
+        }
+
+        .u2 {
+            list-style: none;
+            color: #ccc;
+            font-size: 13px;
+            float: left;
+            margin-left: 30px;
+            padding-bottom: 5px;
+        }
+
+        .u3 {
+            list-style: none;
+            color: #ccc;
+            font-size: 13px;
+            float: left;
+            margin-left: 30px;
+            padding-bottom: 5px;
+        }
+
+        .u4 {
+            list-style: none;
+            color: #ccc;
+            font-size: 13px;
+            float: left;
+            margin-left: 30px;
+            padding-bottom: 5px;
+        }
+
+        .u2 li {
+            padding-bottom: 3px;
+        }
+
+        .u3 li {
+            padding-bottom: 3px;
+        }
+
+        .u4 li {
+            padding-bottom: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+            <ul class="nav-ul">
+                <li><a href="#">首页</a></li>
+                <li><a href="#">酷玩</a></li>
+                <li><a href="#">导购</a></li>
+                <li><a href="#">试用</a></li>
+                <li><a href="#">报告</a></li>
+            </ul>
+            <img src="../img/搜索.png" class="ser">
+            <button class="registered">注册</button>
+    </div>
+
+    <!-- 内容部分 -->
+    <main>
+        <div class="title">注册极果</div>
+        <form action="">
+            <input type="text" placeholder="请输入登录手机号"></br>
+            <input class="verify" type="text" placeholder="请输入图片验证码"><img src="../img/imgCode.jpg" alt=""></br>
+            <input class="verify" type="text" placeholder="请输入4位数字验证码"><button>获取验证码</button></br>
+            <input type="text" placeholder="请输入用户名"></br>
+            <input type="text" placeholder="请输入密码"></br>
+            <input type="text" placeholder="确定密码"></br>
+            <button id="submit">立即注册</button>
+        </form>
+    </main>
+    
+    <!-- 底部 -->
+    <div class="bottom">
+        <img src="../img/logoImg.jpg" class="logo1">
+        <div class="bot1">
+            全球酷玩试用导购平台<br>
+            酷新奇好玩品质<br>
+            <br>
+            微信添加"Jguolguo"<br>
+            获取我们的服务。<br>
+        </div>
+        <div class="bot2">
+            <ul class="u1">
+                <li id="t1">免费试用</li>
+                <li>试用流程</li>
+                <li>如何提高成功率</li>
+            </ul>
+            <ul class="u2">
+                <li id="t1">友情链接</li>
+                <li>智东西&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; WEIBUSI</li>
+                <li>搜狐I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 腾讯科技</li>
+                <li>搜狐数码&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 凤凰科技</li>
+                <li>凤凰数码 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PConline</li>
+                <li>泡泡网 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3W咖啡</li>
+                <li>ZUK社区&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;亿觅emie</li>
+                <li>极客公园&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;易迅易启玩</li>
+                <li>果库</li>
+            </ul>
+            <ul class="u3">
+                <li id="t1">购买攻略</li>
+                <li>美亚海淘教程</li>
+                <li>日亚海淘教程</li>
+                <li>海淘转运攻略</li>
+                <li>kickstarter众筹购买攻略</li>
+                <li>indiegogo众筹购买攻略</li>
+            </ul>
+            <ul class="u4">
+                <li id="t1">厂商合作</li>
+                <li>关于极果</li>
+                <li>联系我们</li>
+                <li>商务合作: BD@jiguo.com</li>
+                <li>CEO邮箱: CEO@jiguo.com</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
