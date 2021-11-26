@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,38 +6,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>注册极果</title>
+    <title>登录极果</title>
     <link rel="stylesheet" href="../css/default.css">
     <link rel="stylesheet" href="../css/index.css">
-
+<style>
+    main>img{
+    width: 1065px;
+    height: 598px;
+    margin: -5px 0px;
+    border-radius: 10px;
+}
+form{
+    position: absolute;
+    margin: -400px 180px;
+    width: 290px;
+    height: 280px;
+    
+}
+form>p{
+    position: absolute;
+    font-size: 24px ;
+    margin: -50px -55px;
+}
+.zhuce_{
+    text-align: center;
+}
+</style>
 </head>
 
 <body>
     <div class="nav">
         <ul class="nav-ul">
             <li><a href="../html/index.html">首页</a></li>
-            <li><a href="../play/play 最新.html">酷玩</a></li>
+            <li><a href="../play/play 最新.html.html">酷玩</a></li>
             <li><a href="#">导购</a></li>
             <li><a href="#">试用</a></li>
             <li><a href="#">报告</a></li>
         </ul>
         <a href="#" class="sousuo"><img src="../img/搜索.png" alt=""></a>
-        <a href="../html/reg.html"> <button class="registered">注册</button></a>
+        <a href="../html/reg.html"><button class="registered" onclick="subt()">注册</button></a>
     </div>
-    <!-- 内容部分 -->
+
+
+
     <main>
-        <div class="title">注册极果</div>
-        <form action="">
-            <input type="text" placeholder="请输入登录手机号" id="haoma"><span id="sp1">6-12个字符，推荐使用中文会员名</span></br>
-            <input type="text" placeholder="请输入图片验证码" id="code1"><img src="../img/imgCode.jpg" alt="">
-            <span id="sp2"></span></br>
-            <input type="text" placeholder="请输入4位数字验证码" id="code2"><button>获取验证码</button><span id="sp3"></span></br>
-            <input type="text" placeholder="请输入用户名" id="usename"><span id="sp4"></span></br>
-            <input type="text" placeholder="请输入密码" id="password"><span id="sp5"></span></br>
-            <input type="text" placeholder="确定密码" id="password_"><span id="sp6"></span></br>
-            <a href="" id="submit" onclick="subt()">立即注册</a>
-        </form>
+        <img src="../img/丽萨.jpg" alt="" class="lisa">
+    <form action="">
+        <p>账号密码登录</p>
+        <input type="text" name="user" id="user" placeholder="请输入用户名">
+        <br>
+        <input type="password" name="pass" id="pass" placeholder="请输入密码">
+
+        <br>
+        <input type="submit" value="登录" onclick="login()">
+        <br>
+       <a href="../html/reg.html"> <input value="注册极果账号" class="zhuce_"></a>
+    </form>
     </main>
+
+
 
     <!-- 底部 -->
     <div class="bottom">
@@ -85,4 +113,3 @@
 </body>
 
 </html>
-<script src="../js/reg.js"></script>
