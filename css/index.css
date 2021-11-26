@@ -151,16 +151,19 @@ h1{
 }
 
 .swiper-slide>img {
-    width: 250px;
+    width: 211px;
     height: 140px;
 }
 
-/* .swiper-slide {
-    float: left;
+.swiper-slide {
+    width: 100px ;
+    height: 200px;
   
+    float: left;
     top: 12px;
     right: -60px;
-} */
+    margin-left: 0;
+}
 
 .swiper-slide>.name{
     font-size: 15px; 
@@ -235,7 +238,24 @@ h1{
     left: 43px;
     color: rgb(90, 221, 38);
 }
-
+/* 报告精选 */
+.report{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(247, 247, 247);
+}
+/* 导购精选 */
+.shopp{
+    width: 100%;
+    height: 500px;
+    background-color: #ffffff;
+}
+/* 发现酷玩 */
+.play{
+    width: 100%;
+    height: 500px;
+    background-color: #ffffff;
+}
 /* 底部信息  */
 
 .logo1 {
