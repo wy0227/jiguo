@@ -1,0 +1,49 @@
+.play-sort{
+    border-bottom: 3px solid red;
+}
+.play-sort a{
+    color: red;
+}
+.main{
+    width:100% ;
+    background-color: #F7F7F7;
+    height: 2500px;
+}
+a :hover{
+    color: red;
+
+}
+.sort {
+    width: 61%;
+    position: relative;
+    top: 50px;
+    margin: 0 auto;
+    
+}
+
+.sort li{
+    width: 100%;
+    border: 1px solid #ccc; 
+    margin: 50px auto;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+dt{
+    margin: 20px 0px;
+    text-indent: 20px;
+    border-left:5px solid red ;
+
+}
+.list{
+    width: 130px;
+    margin: 5px 0px 5px 20px;
+    display: inline-block;
+}
+p{
+    margin: 10px 0px;
+    text-align: center;
+    font-size: 15px;
+}
+.dd-top{
+    border-top : 2px  dotted #ccc ;
+}

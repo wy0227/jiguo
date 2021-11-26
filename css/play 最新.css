@@ -17,7 +17,23 @@ a{
     background-size: 170px 70px;
     position: relative;
 }
+.play-Latest{
+    border-bottom:3px solid red ;
+}
+.play-Latest a{
+    color: red;
+}
+.play-hottest{
+    border-bottom:3px solid red ;
+}
+.play-hottest a{
+    color: red;
+}
 
+a :hover{
+    color: red;
+    
+}
 .nav-ul {
     width: 500px;
     height: 85px;
