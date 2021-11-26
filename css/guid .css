@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(167, 164, 164);
+}
+
+.nav {
+    width: 100%;
+    height: 85px;
+    border-bottom: 1px solid #ccc;
+    background: url(../img/logonew.png)no-repeat 205px 7px;
+    background-size: 170px 70px;
+    position: relative;
+}
+.play-Latest{
+    border-bottom:3px solid red ;
+}
+.play-Latest a{
+    color: red;
+}
+.play-hottest{
+    border-bottom:3px solid red ;
+}
+.play-hottest a{
+    color: red;
+}
+
+a :hover{
+    color: red;
+    
+}
+.nav-ul {
+    width: 500px;
+    height: 85px;
+    margin-left: 420px;
+}
+
+.nav-ul li {
+    list-style: none;
+    float: left;
+    text-align: center;
+    line-height: 85px;
+    font-size: 18px;
+    padding-left: 44px;
+}
+
+.nav-ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-ul li a:hover {
+    color: red;
+}
+
+.registered {
+    width: 50px;
+    height: 35px;
+    line-height: 20px;
+    font-size: 17px;
+    color: orange;
+    background-color: white;
+    border: 1px solid orange;
+    border-radius: 3px;
+    position: absolute;
+    top: 30px;
+    left: 1210px;
+}
+
+.registered:hover {
+    cursor: pointer;
+}
+.sousuo{
+    position: absolute;
+    
+    margin-top: -49px;
+   margin-left: 1160px;
+}
+.sousuo>img{
+    width: 13%;
+}
+.bottom {
+    width: 100%;
+    height: 400px;
+    background: url(../img/code.png) no-repeat 210px 50px;
+    background-size: 150px 150px;
+    background-color: rgb(80, 80, 80);
+    position: absolute;
+}
+
+.logo1 {
+    position: relative;
+    top: 55px;
+    left: 420px;
+}
+
+.bot1 {
+    width: 150px;
+    height: 100px;
+    color: #ccc;
+    position: relative;
+    top: 64px;
+    left: 425px;
+    font-size: 13px;
+}
+
+.bot2 {
+    width: 700px;
+    height: 200px;
+   
+    position: relative;
+    top: -100px;
+    left: 630px;
+}
+
+.u1 {
+    float: left;
+    
+}
+
+.u1 li {
+    list-style: none;
+    color: #ccc;
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+
+#t1 {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.u2 {
+    list-style: none;
+    color: #ccc;
+    font-size: 13px;
+    float: left;
+    margin-left: 30px;
+    padding-bottom: 5px;
+}
+
+.u3 {
+    list-style: none;
+    color: #ccc;
+    font-size: 13px;
+    float: left;
+    margin-left: 30px;
+    padding-bottom: 5px;
+}
+
+.u4 {
+    list-style: none;
+    color: #ccc;
+    font-size: 13px;
+    float: left;
+    margin-left: 30px;
+    padding-bottom: 5px;
+}
+.u2 li{
+    padding-bottom: 3px;
+}
+.u3 li{
+    padding-bottom: 3px;
+}
+.u4 li{
+    padding-bottom: 3px;
+}
+.Coldplay-title{
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 50px;
+    display: block;
+}
+.Coldplay {
+    margin: 20px auto;
+    width: 300px;
+    height: 50px;
+    list-style-type: none;
+    overflow: hidden;
+}
+.Coldplay li{
+    width: 150px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    font-size: 20px;
+    color: rgb(167, 164, 164);
+}
+.main{
+    width: 100%;
+    background-color: #F7F7F7;
+}
+.main-center{
+    width: 70%;
+    margin: 0px auto;
+    position: relative;
+    top: 20px;
+}
+/* 导航最新页 */
+.guid-latest a,.play-hottest a{
+    padding-bottom: 10px;
+    border-bottom: 2px solid red;
+    box-sizing: border-box;
+}
+.guid-latest a{
+    color: red;
+}
+.main-center {
+    overflow: hidden;
+}
+.main-center li{
+    margin: 30px 20px;
+    width: 220px;
+    background-color:#FFFFFF;
+    background-size: contain;
+    border-radius: 10px;
+    float: left;
+    height: 240px;
+    border: 1px solid #ccc;   
+}
+
+
+
+.name{
+    color: black;
+    font-size: 15px;
+    margin: 5px 5px;
+}
+.center-icon{
+    width: 60px;
+    margin: 10px 5px 10px 155px; 
+}
+.xin{
+    font-size: 13px;
+    padding-left: 20px;
+    background:url(../img/xin.png)no-repeat ;
+    background-size: 60%;
+}
+.look{
+    font-size: 13px;
+    padding-left: 20px;
+    background: url(../img/reply.png)no-repeat;
+    background-size: 60%;
+}
+img{
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+
+
+
+.more{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+   
+}
+.more a{
+    color: red;
+}
