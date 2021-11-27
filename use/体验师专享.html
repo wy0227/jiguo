@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
    <link rel="stylesheet" href="../css/头部尾部.css">
-   <link rel="stylesheet" href="../css/guid .css">
+   <link rel="stylesheet" href="../css/use.css">
 </head>
 
 <body>
@@ -29,12 +29,20 @@
     <span class="Coldplay-title">大众试用</span>
     <ul class="Coldplay">
         <li ><a href="./大众试用.html">大众试用</a></li>
-        <li class="play-Latest"><a href="">体验师专享</a></li>
+        <li class="play-Latest"><a>体验师专享</a></li>
         
     </ul>
+    <div class="all">
+        <ul class="all-ul">
+            <li class="all-ui-li"> <a href="">全部</a> </li>
+            <li> <a href="">申请中</a> </li>
+            <li> <a href="">试用中</a> </li>
+            <li> <a href="">已结束</a> </li>
+        </ul>
+    </div>
     <div class="main">
             <div class="main-center">
-               <ul id="list">
+               <ul id="list1">
                    <!-- <li>
                        <a href="">
                            <img src="../img/g1.jpg" alt="" width="220px" height="130px">
@@ -107,3 +115,39 @@
 </body>
 
 </html>
+<script >
+    
+    function show() {
+                var ajax_ = new XMLHttpRequest() || new ActiveXObject('Microsoft.XMLHTTP');
+                    ajax_.open('get','http://192.168.31.5:3000/useing/master',true);
+                    ajax_.send();
+        
+                    ajax_.onreadystatechange = function() {
+                    if(ajax_.readyState == 4) {
+                        if(ajax_.status == 200) {
+                            var data = JSON.parse(ajax_.responseText);
+                            showData(data);
+                        }
+                    } else {
+                        console.log('失败');
+                    }
+                }
+            }
+                function showData(data) {
+                var str = '';
+                for (var i = 0; i < 12;i++) {
+                    console.log(data[i]);
+                    str += '<li>';
+                    str += '<img src="'+data[i].img+'" width="220px" height="130px">';
+                    str += '<h2>'+data[i].text+'</h2>';
+                    str += '<div class = "jg">'+data[i].totalnum+'</div>';
+                    str += '<div class = "sl">'+data[i].num+'台</div>';
+                    str += '<div class="sq"><span>'+data[i].apply+'</span>申请</div>';
+                    str += '<p>'+data[i].info_ty+'</p>';
+                    str += '</li>';
+                }
+                var ul = document.getElementById('list1');
+                ul.innerHTML = str;
+                }
+            show();
+</script>

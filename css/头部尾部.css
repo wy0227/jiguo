@@ -169,4 +169,47 @@ a :hover{
 }
 .u4 li{
     padding-bottom: 3px;
+}.Coldplay-title{
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 50px;
+    display: block;
+}
+.Coldplay {
+    margin: 20px auto;
+    width: 300px;
+    height: 50px;
+    list-style-type: none;
+    overflow: hidden;
+}
+.Coldplay li{
+    width: 150px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    font-size: 20px;
+    color: rgb(167, 164, 164);
+}
+.main{
+    width: 100%;
+    background-color: #F7F7F7;
+    overflow: hidden;
+}
+.main-center{
+    width: 70%;
+    margin: 0px auto;
+    position: relative;
+    top: 20px;
+}
+.more{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+   
+}
+.more a{
+    color: red;
 }

@@ -1,7 +1,6 @@
-
-    function show() {
+function show() {
             var ajax_ = new XMLHttpRequest() || new ActiveXObject('Microsoft.XMLHTTP');
-                ajax_.open('get','http://192.168.31.5:3000/guid/hot',true);
+                ajax_.open('get','http://192.168.31.5:3000/useing/public',true);
                 ajax_.send();
     
                 ajax_.onreadystatechange = function() {
@@ -20,16 +19,12 @@
             for (var i = 0; i < 12;i++) {
                 console.log(data[i]);
                 str += '<li>';
-                str += '<a>';
                 str += '<img src="'+data[i].img+'" width="220px" height="130px">';
-                str += '<div>';
-                str += '<p class="name">'+data[i].text+'</p >';
-                str += '</div>';
-                str += '<div class = "center-icon">';
-                str += '<span class="xin">'+data[i].like+'</span>';
-                str += '<span class="look">'+data[i].words+'</span>';
-                str += '</div>';
-                str += '</a>';
+                str += '<h2>'+data[i].text+'</h2>';
+                str += '<div class = "jg">'+data[i].totalnum+'</div>';
+                str += '<div class = "sl">'+data[i].num+'台</div>';
+                str += '<div class="sq"><span>'+data[i].apply+'</span>申请</div>';
+                str += '<p>'+data[i].info_ty+'</p>';
                 str += '</li>';
             }
             var ul = document.getElementById('list');
@@ -37,3 +32,6 @@
             }
         show();
     
+
+
+        

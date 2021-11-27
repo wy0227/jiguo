@@ -9,9 +9,51 @@
     height: 50px;
     margin: 0 auto;
 }
+.all-ul-li a{
+   color: black;
+}
 .all-ul li{
     float: left;
     width: 150px;
     text-align: center;
     line-height: 50px;
+}
+.main-center li{
+    width: 220px;
+    height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    float: left;
+    margin: 20px 20px;
+}
+h2{
+    font-size: 16px;
+    margin: 5px 5px;
+    text-align: center;
+}
+img{
+    border-radius: 10px 10px 0px 0px;
+}
+.jg,.sl{
+    width: 50PX;
+    height: 25PX;
+    font-size: 14px;
+    display: inline-block;
+    color: #ccc;
+    border: 1px solid #ccc;
+    line-height: 25px;
+    text-align: center;
+    margin: 0px 1px 0px 55px;
+    border-radius: 10px;
+}
+.sl{
+    margin: 0px 54px 0px 1px;
+}
+.sq,p{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.sq span{
+    color: red;
 }
