@@ -1,3 +1,15 @@
+function fn(){
+    var now=new Date();
+    var today=new Date(2021,11,29);
+    var cha=today-now;
+    var a=Math.floor(cha/1000/60/60/24);
+    var b=Math.floor(cha/1000/60/60%24);
+    var c=Math.floor(cha/1000/60%60);
+    var d=Math.floor(cha/1000%60);
+   document.getElementsByClassName('trying')[0].innerHTML='申请时间剩余：'+a+'天'+b+'时'+c+'分'+d+'秒';
+}
+setInterval(fn,1000)
+
 function show() {
     var ajax_ = new XMLHttpRequest() || new ActiveXObject('Microsoft.XMLHTTP');
     ajax_.open('get', 'http://192.168.31.5:3000/report/new', true)
@@ -58,8 +70,8 @@ function showData(data) {
         str1 += '</div>';
         str1 += '</li>';
     }
-    var ul = document.getElementsByClassName('list')[1];
-    ul.innerHTML = str1;
+    var u2= document.getElementsByClassName('list')[1];
+    u2.innerHTML = str1;
 
     var str2 = '';
     for (var i = 0; i < 12; i++) {
@@ -83,8 +95,6 @@ function showData(data) {
         str2 += '</div>';
         str2 += '</li>';
     }
-    var ul = document.getElementsByClassName('list')[2];
-    ul.innerHTML = str2;
+    var u3 = document.getElementsByClassName('list')[2];
+    u3.innerHTML = str2;
 }
-show();
-
