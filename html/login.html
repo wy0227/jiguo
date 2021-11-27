@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,29 +8,38 @@
     <title>登录极果</title>
     <link rel="stylesheet" href="../css/default.css">
     <link rel="stylesheet" href="../css/index.css">
-<style>
-    main>img{
-    width: 1065px;
-    height: 598px;
-    margin: -5px 0px;
-    border-radius: 10px;
-}
-form{
-    position: absolute;
-    margin: -400px 180px;
-    width: 290px;
-    height: 280px;
-    
-}
-form>p{
-    position: absolute;
-    font-size: 24px ;
-    margin: -50px -55px;
-}
-.zhuce_{
-    text-align: center;
-}
-</style>
+    <style>
+        main>img {
+            width: 1065px;
+            height: 598px;
+            margin: -5px 0px;
+            border-radius: 10px;
+        }
+
+        form {
+            position: absolute;
+            margin: -400px 180px;
+            width: 290px;
+            height: 280px;
+
+        }
+
+        form>p {
+            position: absolute;
+            font-size: 24px;
+            margin: -50px -55px;
+        }
+
+        .zhuce_ {
+            text-align: center;
+        }
+
+        #but {
+            margin: 2px -48px;
+            width: 311px;
+            height: 47px;
+        }
+    </style>
 </head>
 
 <body>
@@ -48,20 +56,23 @@ form>p{
     </div>
 
 
-
+    <!-- 内容 -->
     <main>
         <img src="../img/丽萨.jpg" alt="" class="lisa">
-    <form action="">
-        <p>账号密码登录</p>
-        <input type="text" name="user" id="user" placeholder="请输入用户名">
-        <br>
-        <input type="password" name="pass" id="pass" placeholder="请输入密码">
+        <form action="">
+            <p>账号密码登录</p>
+            <input type="text" name="user" id="user" placeholder="请输入用户名">
+            <br>
+            <input type="password" name="pass" id="pass" placeholder="请输入密码">
 
-        <br>
-        <input type="submit" value="登录" onclick="login()">
-        <br>
-       <a href="../html/reg.html"> <input value="注册极果账号" class="zhuce_"></a>
-    </form>
+            <br>
+            <a href="#" id="index_ ">
+                <button onclick="login()" id="but">登录</button>
+            </a>
+            <!-- <input type="submit" value="" > -->
+            <br>
+            <a href="../html/reg.html"> <input value="注册极果账号" class="zhuce_"></a>
+        </form>
     </main>
 
 
@@ -79,8 +90,12 @@ form>p{
         <div class="bot2">
             <ul class="u1">
                 <li id="t1">免费试用</li>
-                <a href="../html/试用.html#flow">  <li>试用流程</li></a>
-                <a href="../html/试用.html#win"> <li>如何提高成功率</li></a>
+                <a href="../html/试用.html#flow">
+                    <li>试用流程</li>
+                </a>
+                <a href="../html/试用.html#win">
+                    <li>如何提高成功率</li>
+                </a>
             </ul>
             <ul class="u2">
                 <li id="t1">友情链接</li>
@@ -113,3 +128,4 @@ form>p{
 </body>
 
 </html>
+<script src="../js/登录.js"></script>

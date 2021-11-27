@@ -1,0 +1,109 @@
+.Coldplay-title{
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    font-size:37px;
+    display: block;
+}
+.play-sort{
+   
+    padding-bottom: 5px;
+    border-bottom: 1px solid red
+}
+
+.Coldplay {
+    margin: 20px auto;
+    width: 450px;
+    height: 50px;
+    
+    list-style-type: none;
+}
+.Coldplay li{
+    width: 220px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    font-size: 26px;
+  
+    overflow: hidden;
+}
+.Coldplay >a{
+    color: rgb(120, 121, 117);
+}
+.play-sort>a{
+    color: red;
+}
+.main{
+    width: 100%;
+    /* height: 155px; */
+    background-color: #ccc;
+}
+.main_>img{
+    
+    margin: 25px 350px;
+    width: 43%;
+    border-radius: 10px 10px 0 0;
+}
+.main_>.wen{
+  position: absolute;
+    margin: -139px 350px;
+    width: 653px;
+    height: 110px;
+    background-color: whitesmoke ;
+    opacity: .5;
+    
+}
+
+.wen>p{
+    position: relative;
+    font-size: 20px;
+    margin: 10px 30px;
+}
+.name{position: relative;
+    top: 25px;
+    font-size: 18px;
+    margin: 0px 36px;
+}
+.time{
+    position: absolute;
+    top: 74px;
+    font-size: 15px;
+    left: 94px;
+}
+.zan_{
+    position: relative;
+    top: 2px;
+    font-size: 17px;
+   margin-left: 455px;
+    padding-left: 15px;
+    background: url(../img/zan.png) no-repeat 1px 6px;
+}
+.like_{
+    position: relative;
+    top: 2px;
+    font-size: 17px;
+   margin-left: 10px;
+    padding-left: 18px;
+    background: url(../img/xin.png) no-repeat 1px 6px;
+}
+.tiyan{
+    position: absolute;
+    float: right;
+    top: 0;
+    right: 0;
+    margin: 260px 174px;
+    width: 300px;
+}
+.tiyan>h1{
+    padding-left: 10px;
+    margin: 10px 12px;
+    font-size: 22px;
+    background: url(../img/shouye_shugang_shijiantixing.png) no-repeat -10px 2px;
+background-size: 10%;
+}
+.tiyan>h4{
+    margin: 10px 5px;
+}
+.tiyan>p{
+    margin: 10px 5px;
+}
