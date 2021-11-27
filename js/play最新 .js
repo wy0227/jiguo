@@ -22,7 +22,7 @@ function showData(data) {
         str += '<li>';
         str += '<img src="' + data[i][j].img + '" width="220px" height="130px">';
         str += '<p>' + data[i][j].text + '</p>';
-        str += '<p class="li-p">' + data[i][j].description + '</p >';
+        str += '<p class="li-p">' + data[i][j].price + '</p >';
         str += '<div class = "center-icon">';
         str += '<span class="xin">' + data[i][j].like + '</span>';
         str += '<span class="look">' + data[i][j].words + '</span>';
